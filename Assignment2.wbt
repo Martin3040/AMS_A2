@@ -1,0 +1,200 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.30674092964624106 -0.2935039337475144 0.9054089920883792 4.569406997997328
+  position 0.0995866129238272 2.1461299521465382 1.7307624279655436
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 1 0 0 4.692820414042842e-06
+}
+Solid {
+  translation 0 0.42 0.1
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  boundingObject USE wall
+}
+Solid {
+  translation 0.07 0.35 0.1
+  rotation 0 0 1 1.5707996938995747
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.45 0.2
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE wall
+}
+Solid {
+  translation 0.15 0.28 0.1
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE wall
+}
+Solid {
+  translation 0.084 0.21 0.1
+  rotation 0 0 1 1.5708
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject USE wall
+}
+Solid {
+  translation 0.426 0.11 0.1
+  rotation 0 0 1 1.5708
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE wall
+}
+Solid {
+  translation 0.35 0.045 0.1
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject USE wall
+}
+Solid {
+  translation 0.276 -0.16 0.1
+  rotation 0 0 1 1.5707996938995747
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.45 0.2
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject USE wall
+}
+Solid {
+  translation 0.06 -0.09 0.1
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject USE wall
+}
+Solid {
+  translation -0.1 -0.025 0.1
+  rotation 0 0 1 1.5707996938995747
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.3 0.2
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject USE wall
+}
+Solid {
+  translation -0.12 -0.42 0.1
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject USE wall
+}
+Solid {
+  translation -0.2 -0.357 0.1
+  rotation 0 0 1 1.5708
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.15 0.2
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject USE wall
+}
